@@ -1,0 +1,9 @@
+To compile just run make and use the outputted program "pasclex". If the makefile doesn't work for whatever reason, 
+commands are:
+
+lex -i lexer.l
+g++ driver.c lex.yy.c -lfl
+
+then run the a.out
+
+a.out < inputfilegoeshere
